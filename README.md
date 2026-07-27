@@ -1,29 +1,48 @@
 # 🤖 IBM SkillsBuild AI Project
+# Nutrition Project
 
-![HTML](https://img.shields.io/badge/HTML-orange)
+A small Flask web app for meal generation, nutrition analysis, and community recipe sharing.
 
-## Overview
+## Project Structure
 
-A project developed as part of IBM SkillsBuild AI Internship, demonstrating AI concepts and web development skills.
+- `app.py` - main Flask app and routes
+- `nutritional_analyzer.py` - nutrition lookup and parsing helpers
+- `voice_module.py` - optional voice command module
+- `meal_data.json` - saved meal plan data
+- `templates/` - HTML pages for the app
+  - `index.html`
+  - `meal_generator.html`
+  - `loading.html`
+  - `display_meal.html`
+  - `analyze.html`
+  - `community_recipe.html`
 
-## Features
+## How to Run
 
-- AI Concepts
-- Interactive UI
-- Responsive Design
+1. Install Python 3.
+2. Install dependencies:
 
-## Technologies
+   ```bash
+   pip install flask requests speechrecognition pyttsx3 pyaudio
+   ```
 
-- HTML
-- CSS
-- JavaScript
+3. Start the app:
 
-## Internship
+   ```bash
+   python app.py
+   ```
 
-IBM SkillsBuild
+4. Open the browser at:
 
-## Learning Outcomes
+   ```
+   http://127.0.0.1:5000/
+   ```
 
-- AI Fundamentals
-- Problem Solving
-- Team Collaboration
+## Important Notes
+
+- The app uses a Nutritionix API request in `nutritional_analyzer.py`.
+- The meal generator sends data to a Relay.app webhook in `app.py`.
+- Replace any API keys or webhook URLs with your own before publishing.
+- `voice_module.py` is optional and may need microphone/audio support on your system.
+
+
