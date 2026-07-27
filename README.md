@@ -43,9 +43,11 @@ A small Flask web app for meal generation, nutrition analysis, and community rec
   <img width="443" height="210" alt="image" src="https://github.com/user-attachments/assets/c6cc0f35-af40-4021-8c90-330b5b3a5dfa" />
 
 2.generate your meal plan
+
 <img width="475" height="258" alt="image" src="https://github.com/user-attachments/assets/a04ba2cb-e839-4ec9-b686-ccdda04a14b6" />
 
 3.Community recipe sharing
+
 <img width="401" height="256" alt="image" src="https://github.com/user-attachments/assets/ad71bb76-7805-4a8c-983b-ffe107516469" />
 
 
